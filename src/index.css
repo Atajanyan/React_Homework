@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.counter{
+  position: absolute;
+  left: 14%;
+  top:20%;
+  background-color: rgb(114, 206, 235);
+  padding: 10px;
+}
+
+.counter1{
+  position: absolute;
+  left: 35%;
+  top:37%;
+}
+
+.counter3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 43%;
+  top:27%;
+}
+
+button{
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(99, 207, 72);
+  border: none;
+  font-size: 30px;
+}
+
+input{
+  padding: 5px;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.show{
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hideButton{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.showContainer{
+  position: relative;
+  width: 200px;
+}
+
+.containerCard{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.containerCard1{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.b1{
+  height: 50px;
+}
+
+.coctailsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  background-color: rgb(114, 114, 247);
+}
+
+img{
+  width: 200px;
+  height: 300px;
+}
+
+.coctails{
+  width: 200px;
+  box-shadow: 0 0 10px 5px  rgb(255, 255, 255);
+}
